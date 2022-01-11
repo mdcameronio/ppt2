@@ -19,6 +19,7 @@ error_reporting(E_ALL);
 </head>
 <body>
 <?php
+include "functions.php";
 echo "<p>1. PHP Array practice</p>";
 
 $numbers = array("7","9","8","9","8","8","6");
@@ -27,14 +28,7 @@ $numbers = array("7","9","8","9","8","8","6");
 echo "<p>step 2</p>";
 printArr($numbers);
 
-function printArr( $num){
-    for($x=0; $x<sizeof($num);$x++){
-        echo "$num[$x] <br>";
 
-    }
-
-
-}
 
 ?>
 
