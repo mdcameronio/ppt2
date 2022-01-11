@@ -19,8 +19,22 @@ error_reporting(E_ALL);
 </head>
 <body>
 <?php
-echo "<p>1. PHP Array practice";
+echo "<p>1. PHP Array practice</p>";
 
+$numbers = array("7","9","8","9","8","8","6");
+
+
+echo "<p>step 2</p>";
+printArr($numbers);
+
+function printArr( $num){
+    for($x=0; $x<sizeof($num);$x++){
+        echo "$num[$x] <br>";
+
+    }
+
+
+}
 
 ?>
 
@@ -33,12 +47,5 @@ echo "<p>1. PHP Array practice";
 
 <?php
 
-//mat casmeron
-//1/11/2022
-//url https://mcameron.greenriverdev.com/328/ppt2/index.php
-//pair program 2
-//Turn on error reporting
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 
 
