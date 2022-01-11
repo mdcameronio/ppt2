@@ -6,6 +6,15 @@ function printArr( $num){
         echo "$num[$x] <br>";
 
     }
+}
 
 
+function largest($lrg){
+    $start = 0;
+    for($x=0;$x<sizeof($lrg);$x++){
+        if($lrg[$x] >$start){
+            $start=$lrg[$x];
+        }
+    }
+    return $start;
 }

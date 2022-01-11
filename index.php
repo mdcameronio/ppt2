@@ -22,12 +22,12 @@ error_reporting(E_ALL);
 include "functions.php";
 echo "<p>1. PHP Array practice</p>";
 
-$numbers = array("7","9","8","9","8","8","6");
+$numbers = array("7","9","8","9","8","8","6","20");
 
 
 echo "<p>step 2</p>";
 printArr($numbers);
-
+echo "largest " .largest($numbers);
 
 
 ?>
