@@ -18,3 +18,8 @@ function largest($lrg){
     }
     return $start;
 }
+
+function removeDups($dups){
+
+    return array_unique($dups);
+}

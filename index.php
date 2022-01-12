@@ -28,6 +28,12 @@ $numbers = array("7","9","8","9","8","8","6","20");
 echo "<p>step 2</p>";
 printArr($numbers);
 echo "largest " .largest($numbers);
+echo "<br>";
+print_r($numbers) ;
+echo "<br>";
+$numbersRemove = removeDups($numbers);
+echo "<br>";
+print_r($numbersRemove) ;
 
 
 ?>
